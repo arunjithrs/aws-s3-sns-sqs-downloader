@@ -1,0 +1,22 @@
+ // let sessionParams = {
+          //   maxPartSize: 1024 * 1024 * 10, 
+          //   concurrentStreams: 10, 
+          //   maxRetries: 10,  
+          //   totalObjectSize: size,  
+          // };
+
+          // let downloader = require("s3-download")(s3Client);
+          // let d = downloader.download(params, sessionParams);
+          // d.on("error", function (err) {
+          //   console.log('error occured', err);
+          // });
+          // d.on("part", function (dat) {
+          //   console.log("part downloaded : File: " + actualFileName, dat);
+          // });
+    
+          // d.on("downloaded", function (dat) {
+          //   console.log("file downloaded : File: " + actualFileName, dat);
+          // });
+          // d.on("end", function (err) {
+          //   console.log("file downloaded  end"  );
+          // });
